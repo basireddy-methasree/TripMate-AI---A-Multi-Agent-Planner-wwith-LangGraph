@@ -1,1 +1,1 @@
-# TripMate-AI---A-Multi-Agent-Planner-wwith-LangGraph
+# TripMate-AI---A-Multi-Agent-Planner-with-LangGraph
