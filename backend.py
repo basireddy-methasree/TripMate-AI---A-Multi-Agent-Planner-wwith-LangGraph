@@ -52,16 +52,17 @@ print(url)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 if not GROQ_API_KEY:
-    raise ValueError("GROQ_API_KEY is missing. Please add it to your .env file.")
+    raise ValueError(
+        "GROQ_API_KEY is missing. Please add it to your .env file."
+    )
 
 # =========================
-# LLM - original model kept
+# LLM
 # =========================
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-120b",
     api_key=GROQ_API_KEY,
 )
-
 
 
 # =========================
